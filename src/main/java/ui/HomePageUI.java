@@ -3,7 +3,7 @@ package ui;
 import org.openqa.selenium.By;
 
 public class HomePageUI {
-    public static By loginButton = By.xpath("//div[@class='HPHeaderSignup']");
+    public static By loginButton = By.xpath("//div[@class='HPHeaderLogin']");
     public static By signUpButton = By.xpath("//div[@class='HPHeaderSignup']");
     public static By fullnameInput = By.xpath("//*[@id=\"ctl00_MainContent_SignupControl1_TextBoxFullName\"]");
     public static By emailInput = By.xpath("//*[@id=\"ctl00_MainContent_SignupControl1_TextBoxEmail\"]");

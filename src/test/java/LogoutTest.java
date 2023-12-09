@@ -8,7 +8,7 @@ import task.validations.IsLogoutVisible;
 
 public class LogoutTest extends BaseTest {
     @Test
-    public void loginSuccessful() {
+    public void logoutSuccessful() {
         Logout.as(webDriver, "jurcaner@gsdcs.com", "SuperSecretPassword!");
         Assert.assertTrue(IsLoginVisible.visible(webDriver));
     }
